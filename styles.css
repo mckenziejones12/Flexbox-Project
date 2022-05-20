@@ -5,13 +5,12 @@
 }
 .container0 {
   background-color: #1f2937;
+  padding: 20px;
 }
 .container0-content {
   display: flex;
   flex-direction: column;
   color: #f9faf8;
-  margin-right: 150px;
-  margin-left: 150px;
 }
 
 .header {
@@ -36,22 +35,24 @@ li {
 }
 .hero {
   display: flex;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   gap: 20px;
+  justify-content: center;
 }
 .footer {
   background-color: #1f2937;
   color: #f9faf8;
   text-align: center;
-  display: flex;
-  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .hero-text {
   display: flex;
   flex-direction: column;
-  font-size: 48px extra-bold;
   color: #f9faf8;
   width: 350px;
   gap: 5px;
@@ -65,4 +66,32 @@ button {
 
 .button {
   background-color: #3882f6;
+  max-width: 40px;
+}
+.hero-primary {
+  font-size: 48px;
+  font-weight: 100;
+}
+.hero-secondary {
+  font-size: 18px;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+}
+.container2 {
+  background-color: #e5e7eb;
+  padding: 50px;
+}
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  width: 500px;
+  margin: auto;
+}
+.author {
+  margin-left: 525px;
 }
