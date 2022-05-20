@@ -1,4 +1,4 @@
-.body {
+body {
   margin: 0px;
   display: flex;
   flex-direction: column;
@@ -85,13 +85,20 @@ button {
 .container2 {
   background-color: #e5e7eb;
   padding: 50px;
+  display: flex;
+  flex-direction: column;
 }
 .quote {
   font-size: 36px;
   font-style: italic;
   width: 500px;
   margin: auto;
+  display: flex;
+  padding: 15px;
 }
 .author {
-  margin-left: 525px;
+  display: flex;
+  width: 500px;
+  margin: auto;
+  flex-direction: row-reverse;
 }
