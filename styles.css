@@ -1,11 +1,19 @@
+@font-face {
+  font-family: robotoFont;
+  src: url(./Roboto/Roboto-Regular.ttf);
+}
+
 body {
   margin: 0px;
   display: flex;
   flex-direction: column;
+  font-family: robotoFont;
 }
+
 .container0 {
   background-color: #1f2937;
   padding: 20px;
+  margin: auto;
 }
 .container0-content {
   display: flex;
@@ -15,10 +23,18 @@ body {
 
 .header {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .headerlogo {
   font-size: 24px;
   color: #f9faf8;
+  display: flex;
+  justify-content: flex-start;
+}
+.links {
+  display: flex;
+  justify-content: flex-end;
 }
 ul {
   text-decoration: none;
@@ -29,14 +45,10 @@ li {
   display: inline;
   padding: 5px;
 }
-.links {
-  display: flex;
-  margin-left: auto;
-}
 .hero {
   display: flex;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   gap: 20px;
   justify-content: center;
 }
@@ -56,6 +68,7 @@ li {
   color: #f9faf8;
   width: 350px;
   gap: 5px;
+  max-height: 180px;
 }
 
 .hero-primary,
@@ -67,9 +80,10 @@ button {
 button {
   background-color: #3882f6;
   color: #f9faf8;
-  max-width: fit-content;
+  max-width: max-content;
   border-radius: 7px;
   border: none;
+  padding: 5px, 5px;
 }
 .hero-primary {
   font-size: 48px;
@@ -118,12 +132,51 @@ button {
   display: flex;
   justify-content: space-evenly;
 }
-.image {
+.info-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 100px;
+  max-width: 150px;
 }
 .p-text {
   text-align: center;
+}
+.container3 {
+  display: flex;
+  background-color: #3882f6;
+  margin: 70px;
+  border-radius: 7px;
+  padding: 30px 70px 30px 70px;
+  justify-content: space-between;
+}
+.container3-content {
+  display: flex;
+  flex-direction: column;
+  color: #f9faf8;
+}
+.container3-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: lightgray;
+  max-width: fit-content;
+}
+.cont3-header {
+  margin: 0px;
+}
+.cont3-text {
+  margin: 0px;
+  color: lightgray;
+}
+.image {
+  max-width: 150px;
+  max-height: auto;
+}
+.book-button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  max-width: max-content;
+  border-radius: 7px;
+  border-style: solid;
+  font-size: 16px;
 }
